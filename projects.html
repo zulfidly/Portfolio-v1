@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" class=" flexCenter bg-blue1 antialiased border-box text-blue10 overflow-x-hidden">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="myCSS" rel="stylesheet" href="./output.css">
+    <link rel="icon" type="image/png" href="./asset/favicon.png">
+    <script src="./main.js" defer></script> 
+
+
+    <title>Projects</title>
+</head>
+<body class="w-screen container">
+    <div id="spinner" class="w-screen h-screen flexCenter fixed top-0 z-50 bg-blue1"><img class="w-20 animate-spin" src="./asset/spinner.png" alt="spinner"> </div>
+    <div class="fixed top-0 h-14 mb-2 bg-blue10 px-4 w-screen flex justify-between items-center sm:hidden">
+        <div id="hamIcon1" class="sm:hidden">
+            <div class="ham-top"></div>
+            <div class="ham-mid1"></div>
+            <div class="ham-mid2"></div>
+            <div class="ham-mid3"></div>
+            <div class="ham-bottom"></div>
+        </div>
+        <p class="Poppins7 text-2xl tracking-wider text-blue1">Projects</p>
+    </div>
+    <section class="h-12 sm:h-14 "></section>
+    <div id="darkLayer" class="fixed hidden z-20 w-screen h-screen opacity-75 bg-gray-400"></div>
+    <nav id="navbar" class="fixed z-30 top-3/5 sm:top-0 right-full h-screen pb-4 w-3/5 bg-blue2 xl:bg-blue10 text-blue10 xl:text-blue1 flex flex-col sm:flex-row justify-evenly sm:justify-between sm:w-full sm:left-0 sm:h-14  xl:h-24 sm:px-8 sm:py-2">
+        <ul class="h-auto w-full flex flex-col items-center gap-12 sm:gap-6 lg:gap-16 Poppins7 sm:Poppins6 text-xl sm:text-lg xl:text-2xl tracking-wider sm:flex-row">
+            <li><a class="navbarLinks" href="./index.html"      target="_self">Home     </a> </li>
+            <li class="underline-offset-4 underline"><a class="navbarLinks" href="./projects.html"   target="_self">Projects </a> </li>
+            <li><a class="navbarLinks" href="./contact.html"    target="_self">Contact  </a> </li>
+            <li><a class="navbarLinks" href="./about.html"      target="_self">About    </a> </li>
+        </ul>
+        <div class="flex justify-evenly mt-12 sm:mt-0 sm:flexCenter sm:gap-4 lg:gap-16">
+            <div class="w-11 flexCenter p-1"><a class="w-full" href="https://github.com/zulfidly" target="_blank">             <img src="./asset/github.png" alt="github logo" /> </a></div>
+            <div class="w-11 flexCenter p-1"><a class="w-full" href="https://www.linkedin.com/in/zulfidly" target="_blank">    <img src="./asset/linkedin.png" alt="Linked In logo" /> </a></div>
+            <div class="w-11 flexCenter p-1"><a class="w-full" href="https://www.instagram.com/" target="_blank">     <img src="./asset/insta.png" alt="instagram logo" /> </a></div>
+            <div class="w-11 flexCenter p-1"><a class="w-full" href="mailto:zulfidly@gmail.com" target="_self">                          <img src="./asset/gmail.png" alt="gmail logo" />        </a></div>
+        </div>
+    </nav>
+
+ <!-- display cards -->
+    <div class="sm:mt-10 xl:mt-20 p-2 grid grid-cols-1 gap-4 lg:grid-cols-2 2xl:grid-cols-3">
+        <section class="flexStart p-2 bg-blue2 rounded-lg">
+            <img class="m-4 w-2/5 sm:w-1/5" src="./asset/1.jpg" alt="">
+            <div>
+                <p class="Poppins7 text-xl tracking-widest mb-2">Mini game</p>
+                <p class="Poppins6 text-lg tracking-widest">Features :</p>
+                <ul class="Poppins5 list-disc pl-5 space-y-1">
+                    <li>HTML, CSS & JavaScript</li>
+                    <li>API calls</li>
+                    <li>Resumption of gameplay through localStorage utilisation</li>
+                    <li><a href="https://github.com/zulfidly/Game-Guess-The-Nameof-The-Country" target="_blank">view:  GitHub  </a>  |  <a href="https://guess-that-country.netlify.app/" target="_blank">Netlify</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="flexStart p-2 bg-blue2 rounded-lg">
+            <img class="m-4 w-2/5 sm:w-1/5" src="./asset/2.jpg" alt="">
+            <div>
+                <p class="Poppins7 text-xl tracking-widest mb-2">Catstagram</p>
+                <p class="Poppins6 text-lg tracking-widest">Features :</p>
+                <ul class="Poppins5 list-disc pl-5 space-y-1">
+                    <li>Web based built with HTML, CSS & JavaScript</li>
+                    <li>Responsive web design</li>
+                    <li>API calls</li>
+                    <li>DOM manipulation</li>
+                    <li><a href="https://github.com/zulfidly/Catstagram" target="_blank">view:  GitHub  </a>  |  <a href="https://fidlydompractice.netlify.app/" target="_blank">Netlify</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="flexStart p-2 bg-blue2 rounded-lg">
+            <img class="m-4 w-2/5 sm:w-1/5" src="./asset/3.jpg" alt="">
+            <div>
+                <p class="Poppins7 text-xl tracking-widest mb-2">Study Tool</p>
+                <p class="Poppins6 text-lg tracking-widest">Features :</p>
+                <ul class="Poppins5 list-disc pl-5 space-y-1">
+                    <li>Understanding <span class="text-sm sm:text-base">getBoundingClientRect()</span> function</li>
+                    <li>touchEvents added for mobile users</li>
+                    <li><a href="https://github.com/zulfidly/StudyTool-getBoundingClientRect" target="_blank">view:  GitHub  </a>  |  <a href="https://study-getboundingclientrect.netlify.app/" target="_blank">Netlify</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="flexStart p-2 bg-blue2 rounded-lg">
+            <img class="m-4 w-2/5 sm:w-1/5" src="./asset/4.jpg" alt="">
+            <div>
+                <p class="Poppins7 text-xl tracking-widest mb-2">Challenge</p>
+                <p class="Poppins6 text-lg tracking-widest">frontendmentor.io</p>
+                <ul class="Poppins5 list-disc pl-5 space-y-1">
+                    <li>Practice responsive web design</li>
+                    <li><a href="https://github.com/zulfidly/fmNewsHomepage" target="_blank">view:  GitHub  </a>  |  <a href="https://fidly-fm-newshomepage.netlify.app/" target="_blank">Netlify</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="flexStart p-2 bg-blue2 rounded-lg">
+            <img class="m-4 w-2/5 sm:w-1/5" src="./asset/5.jpg" alt="">
+            <div>
+                <p class="Poppins7 text-xl tracking-widest mb-2">Challenge</p>
+                <p class="Poppins6 text-lg tracking-widest">frontendmentor.io</p>
+                <ul class="Poppins5 list-disc pl-5 space-y-1">
+                    <li>Practice responsive web design</li>
+                    <li><a href="https://github.com/zulfidly/fmInteractiveRatingComponent" target="_blank">view:  GitHub  </a>  |  <a href="https://fm-interactive-rating-component03.netlify.app/" target="_blank">Netlify</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="flexStart p-2 bg-blue2 rounded-lg">
+            <img class="m-4 w-2/5 sm:w-1/5" src="./asset/6.jpg" alt="">
+            <div>
+                <p class="Poppins7 text-xl tracking-widest mb-2">Challenge</p>
+                <p class="Poppins6 text-lg tracking-widest">frontendmentor.io</p>
+                <ul class="Poppins5 list-disc pl-5 space-y-1">
+                    <li>Practice responsive web design</li>
+                    <li><a href="https://github.com/zulfidly/fmProductPreviewCard" target="_blank">view:  GitHub  </a>  |  <a href="https://fm-prod-preview-card.netlify.app/" target="_blank">Netlify</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="flexStart p-2 bg-blue2 rounded-lg">
+            <img class="m-4 w-2/5 sm:w-1/5" src="./asset/7.jpg" alt="">
+            <div>
+                <p class="Poppins7 text-xl tracking-widest mb-2">Challenge</p>
+                <p class="Poppins6 text-lg tracking-widest">frontendmentor.io</p>
+                <ul class="Poppins5 list-disc pl-5 space-y-1">
+                    <li>Tailwind CSS build 1<sup>st</sup> attempt</li>
+                    <li>Understanding Vite environment</li>
+                    <li>Final built CSS accuracy</li>
+                    <li><a href="https://github.com/zulfidly/fm-Intro-section-with-dropdown-navigation" target="_blank">view:  GitHub  </a>  |  <a href="https://fm-introsectwithdropdownmenu.netlify.app/" target="_blank">Netlify</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="flexStart p-2 bg-blue2 rounded-lg">
+            <img class="m-4 w-1/5 sm:w-1/5" src="./asset/cogs.png" alt="">
+            <div>
+                <p class="Poppins7 text-xl tracking-widest mb-2">Countdown Timer</p>
+                <p class="Poppins6 text-lg tracking-widest">coding in progress</p>
+                <ul class="Poppins5 list-disc pl-5 space-y-1">
+                </ul>
+            </div>
+        </section>
+        <section class="flexStart p-2 bg-blue2 rounded-lg">
+            <img class="m-4 w-1/5 sm:w-1/5" src="./asset/cogs.png" alt="">
+            <div>
+                <p class="Poppins7 text-xl tracking-widest mb-2">Clone: Google homepage</p>
+                <p class="Poppins6 text-lg tracking-widest">coding in progress</p>
+                <ul class="Poppins5 list-disc pl-5 space-y-1">
+                </ul>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="flexCenter bg-blue1 antialiased border-box text-blue10">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="myCSS" rel="stylesheet" href="./output.css">
+    <link rel="icon" type="image/png" href="./asset/favicon.png">
+    <script src="./main.js" defer></script> 
+
+
+    <title>About</title>
+</head>
+<body class="w-screen container">
+    <div id="spinner" class="w-screen h-screen flexCenter fixed top-0 z-50 bg-blue1"><img class="w-20 animate-spin" src="./asset/spinner.png" alt="spinner"> </div>
+    <div class="fixed top-0 h-14 mb-2 bg-blue10 px-4 w-screen flex justify-between items-center sm:hidden">
+        <div id="hamIcon1" class="sm:hidden">
+            <div class="ham-top"></div>
+            <div class="ham-mid1"></div>
+            <div class="ham-mid2"></div>
+            <div class="ham-mid3"></div>
+            <div class="ham-bottom"></div>
+        </div>
+        <p class="Poppins7 text-2xl tracking-wider text-blue1">About</p>
+    </div>
+    <section class="h-12 sm:h-14"></section>
+    <div id="darkLayer" class="fixed hidden z-20 w-screen h-screen opacity-75 bg-gray-400"></div>
+    <nav id="navbar" class="fixed z-30 top-3/5 sm:top-0 right-full h-full pb-4 w-3/5 bg-blue2 xl:bg-blue10 text-blue10 xl:text-blue1 flex flex-col sm:flex-row justify-evenly sm:justify-between sm:w-full sm:left-0 sm:h-14  xl:h-24 sm:px-8 sm:py-2">
+        <ul class="h-auto w-full flex flex-col items-center gap-12 sm:gap-6 lg:gap-16 Poppins7 sm:Poppins6 text-xl sm:text-lg xl:text-2xl tracking-wider sm:flex-row">
+            <li><a class="navbarLinks" href="./index.html"                                           target="_self">Home     </a> </li>
+            <li><a class="navbarLinks" href="./projects.html"                                        target="_self">Projects </a> </li>
+            <li><a class="navbarLinks" href="./contact.html"                                         target="_self">Contact  </a> </li>
+            <li class="underline-offset-4 underline"><a class="navbarLinks" href="./about.html"      target="_self">About    </a> </li>
+        </ul>
+        <div class="flex justify-evenly items-center mt-12 sm:mt-0 sm:justify-center sm:gap-4 lg:gap-16">
+            <div class="w-11 flexCenter p-1"><a class="w-full" href="https://github.com/zulfidly" target="_blank">             <img src="./asset/github.png" alt="github logo" /> </a></div>
+            <div class="w-11 flexCenter p-1"><a class="w-full" href="https://www.linkedin.com/in/zulfidly" target="_blank">    <img src="./asset/linkedin.png" alt="Linked In logo" /> </a></div>
+            <div class="w-11 flexCenter p-1"><a class="w-full" href="https://www.instagram.com/" target="_blank">     <img src="./asset/insta.png" alt="instagram logo" /> </a></div>
+            <div class="w-11 flexCenter p-1"><a class="w-full" href="mailto:zulfidly@gmail.com" target="_self">                          <img src="./asset/gmail.png" alt="gmail logo" />        </a></div>
+        </div>
+    </nav>
+
+    <div class="w-auto h-5/6 mt-12 flex flex-col justify-evenly">
+        <section class="Poppins4 p-6 text-md tracking-wider space-y-2">
+            <p>Hi, I'm Fidly.</p>
+            <p>I was a engineering graduate from Multimedia University (2009). I have worked in property management field for sometime now. </p>
+            <p>I used to enjoy embedded system coding back in my uni days, the environmnet was a bit rigid back then, for example, there were no YouTube tutorials.</p>
+            <p>So, now I'm in motion to shift to IT field, presently at frontend stack. May the society benefits from my presence and contributions.</p>
+        </section>
+        <section class="p-6 text-md tracking-wider space-y-6">
+            <p class="Poppins5">Frequent source of information</p>
+            <div class="flex flex-wrap justify-evenly items-center gap-8 ">
+                <a class="" href="https://app.sigmaschool.co/" target="_blank">               <img class="p-1 w-12 lg:w-24" src="./asset/sigma.png" alt="sigma school logo" /></a>
+                <a class="" href="https://www.w3schools.com/js/default.asp" target="_blank">  <img class="p-1 w-14 lg:w-24" src="./asset/W3Schools.png" alt="w3 schools logo" /></a>
+                <a class="" href="https://www.youtube.com/@WebDevSimplified" target="_blank"> <img class="p-1 w-14 lg:w-24" src="./asset/wds.jpg" alt="web dev simplified logo" /></a>
+                <a class="" href="https://tailwindcss.com/" target="_blank">                  <img class="p-1 w-36 lg:w-44" src="./asset/Tailwind.png" alt="tailwind css logo" /></a>
+                <a class="" href="https://developer.mozilla.org/en-US/" target="_blank">      <img class="p-1 w-28 lg:w-40" src="./asset/MDN_Web_Docs.png" alt="tailwind css logo" /></a>
+            </div>
+        </section>
+    </div>
+
+
+</body>
+</html>
