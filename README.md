@@ -10,7 +10,7 @@
 <br>
 
 ## Command lines used
-<br>
+
 | Command used | Remarks |
 | ------------- | ------------- |
 | npm init -y  | create a package.json file  |
@@ -54,7 +54,12 @@ module.exports = {
 }
 ```
 
+
+
+
+
 <br>
+
 | Reference  | Code integration |
 | ------------- | ------------- |
 | [Sigma School](https://app.sigmaschool.co/) | HTML, CSS, JavaScipt & TailwindCSS vocabularies |
