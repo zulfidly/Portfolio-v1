@@ -6,7 +6,7 @@
 | ------------- | ------------- |
 | Visual Studio Code  | IDE used  |
 | Tailwind CSS + Vite  | npm init -y <br> npm install -D tailwindcss postcss autoprefixer vite <br> npx tailwindcss init -p <br> npm run dev <br> |
-| Google Chrome + Pesticide extension | run inspect to view webpage live  |
+| Google Chrome + Pesticide extension | run inspect to view webpage live (desktop & mobile screens)  |
 <br>
 
 ## Command lines used
