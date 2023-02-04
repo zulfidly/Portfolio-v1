@@ -1,8 +1,6 @@
 # [My Portfolio website](https://zulfidly.github.io/Portfolio/)
 
 ## Design approach
-- this project was developed by using :
-- tailwindcss and vite environment
 
 <br><br><br><br><br>
 | Tools   | Utilisation |
@@ -26,6 +24,11 @@
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
+<br><br><br><br><br>
+| Customisations  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 <br><br><br><br><br>
 | Reference  | Code integration |
@@ -33,6 +36,10 @@
 | [Sigma School](https://app.sigmaschool.co/) | HTML, CSS, JavaScipt & TailwindCSS vocabularies |
 | [Web Dev Simplified](https://www.youtube.com/watch?v=9HcxHDS2w1s)  | Image slider in CSS (with some minor edits)  |
 | [Tony Heimark](https://www.youtube.com/watch?v=hRaMbPlCT4A)  | hamburger menu animation (with edits)  |
+| [w3schools](https://www.w3schools.com/)  | coding infos  |
+| [MDN](https://developer.mozilla.org/en-US/)  | coding infos  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 <br><br><br><br><br>
 
 <br><br><br><br><br>
