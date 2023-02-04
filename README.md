@@ -2,35 +2,59 @@
 
 ## Design approach
 
-<br><br><br><br><br>
 | Tools   | Utilisation |
 | ------------- | ------------- |
 | VS Code  | IDE used  |
 | Tailwind CSS + Vite  | npm init -y <br> Cell <br> npm install -D tailwindcss postcss autoprefixer vite <br> npx tailwindcss init -p <br> npm run dev <br> <br> |
 | Google Chrome + Pesticide extension | run inspect to view webpage live  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+<br>
 
-<br><br><br><br><br>
+## Command lines used
+<br>
 | Command used | Remarks |
 | ------------- | ------------- |
 | npm init -y  | create a package.json file  |
 | npm install -D tailwindcss postcss autoprefixer vite  | install packages in a dev mode  |
 | npx tailwindcss init -p  | creates postcss.config.js & tailwind.config.js  |
 | npm run dev  | execute vite server (go into development mode) |
-| npx tailwindcss-cli -i input.css -o output.css  | build output.css (production mode)  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| npx tailwindcss-cli -i input.css -o output.css  | update output.css (for production mode)  |
+<br>
 
-<br><br><br><br><br>
-| Customisations  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+### Important customisations
+- edit in package.json
+```
+    "scripts": {
+        "dev": "vite --host --port 5100"
+    },
+```  
+- edit in tailwind.config.js (enable purge to tree-shake unused css classes)
+```
+module.exports = {
+   content: ["./index.html", "./projects.html", "./contact.html", "./about.html"], 		
+    purge: {                                                
+        enabled: true,
+        content: ["./index.html", "./projects.html", "./contact.html", "./about.html"]
+    },
+   theme: {
+     extend: {},
+   },
+   plugins: [],
+}
+```
+- add to input.css
+```
+@tailwind base; 					                   
+@tailwind components;
+@tailwind utilities;
 
-<br><br><br><br><br>
+@layer base {
+    html {
+      -webkit-tap-highlight-color: transparent;
+    }
+}
+```
+
+<br>
 | Reference  | Code integration |
 | ------------- | ------------- |
 | [Sigma School](https://app.sigmaschool.co/) | HTML, CSS, JavaScipt & TailwindCSS vocabularies |
@@ -40,6 +64,6 @@
 | [MDN](https://developer.mozilla.org/en-US/)  | coding infos  |
 | [Tailwind CSS](https://tailwindcss.com/)  | tailwind coding syntaxes  |
 | Content Cell  | Content Cell  |
-<br><br><br><br><br>
+<br>
 
-<br><br><br><br><br>
+<br>
