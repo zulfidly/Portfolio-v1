@@ -86,5 +86,5 @@ module.exports = {
 
 | Items  | Files size |
 | ------------- | ------------- |
-| All in  | 2.6 MB  |
+| All in  | 2.52 MB  |
 | All - images  | 49 KB  |
