@@ -71,4 +71,20 @@ module.exports = {
 
 <br>
 
+### Final step
+
+- Adding project to GitHub Pages
+    - git init
+    - git add ./index.html ./projects.html ./contact.html ./about.html
+    - git add ./main.js ./homeMobile.js
+    - git add ./asset/
+    - git commit -m "description"
+    - git remote add origin 'link'
+    - git push -u origin main
+
 <br>
+
+| Items  | Files size |
+| ------------- | ------------- |
+| All in  | 2.6 MB  |
+| All - images  | 49 KB  |
