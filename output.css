@@ -831,6 +831,46 @@ html {
   }
 }
 
+@keyframes ham_x1a{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes ham_x1b{
+  0%{
+    transform: rotate(45deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes ham_x2a{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes ham_x2b{
+  0%{
+    transform: rotate(-45deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
 .animate-spin{
   animation: spin 1s linear infinite;
 }
@@ -841,6 +881,22 @@ html {
 
 .animate-slideRight_navbar{
   animation: slideRight_navbar 0.2s ease-out 0s 1 normal forwards running;
+}
+
+.animate-ham_x1a{
+  animation: ham_x1a 0.2s ease-out 0s 1 normal forwards running;
+}
+
+.animate-ham_x1b{
+  animation: ham_x1b 0.2s ease-out 0s 1 normal forwards running;
+}
+
+.animate-ham_x2a{
+  animation: ham_x2a 0.2s ease-out 0s 1 normal forwards running;
+}
+
+.animate-ham_x2b{
+  animation: ham_x2b 0.2s ease-out 0s 1 normal forwards running;
 }
 
 .list-disc{
@@ -1156,7 +1212,6 @@ html {
 .ham-mid1 {
   width: 40px;
   height: 3px;
-  background: #EBF5FB;
   transition: 0.1s ease-in-out;
   border-radius: 10px;
   position: absolute;
@@ -1165,40 +1220,56 @@ html {
 .ham-mid2 {
   width: 40px;
   height: 3px;
-  background: #EBF5FB;
   transition: 0.1s ease-in-out;
   border-radius: 10px;
   position: absolute;
 }
 
-.ham-mid3 {
+.hamburgers {
   width: 40px;
   height: 3px;
-  background: #EBF5FB;
+  /* background-color: #EBF5FB; */
   transition: 0.15s ease-in-out;
   border-radius: 10px;
   position: absolute;
 }
 
-.ham-mid3::before,
-    .ham-mid3::after {
+.hamburgers::before,
+    .hamburgers::after {
   content: "";
   position: absolute;
   width: 40px;
   height: 3px;
-  background: #EBF5FB;
+  background-color: inherit;
   transition: 0.15s ease-in-out;
   border-radius: 10px;
-  /* display: none; */
 }
 
-.ham-mid3::before {
+.hamburgers::before {
   transform: translateY(-10px);
 }
 
-.ham-mid3::after {
+.hamburgers::after {
   transform: translateY(10px);
 }
+
+/*
+    .openMenu.ham-mid3::before {
+        background-color: transparent;
+    }
+    .openMenu.ham-mid3::after {
+        background-color: transparent;
+    } */
+
+/* .openMenu.ham-mid1 {
+        transform: rotate(45deg);
+    }
+    .openMenu.ham-mid2 {
+        transform: rotate(-45deg);
+    }
+    .openMenu.ham-mid3 {
+        background-color: transparent;
+    } */
 
 /* image slider animation */
 

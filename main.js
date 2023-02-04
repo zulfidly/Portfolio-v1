@@ -43,7 +43,10 @@ function initNavbar() {
     hamIcon1.classList.remove("openMenu")
     darkLayer.classList.add("hidden")
     isMobileMenuOpen = false
-    
+    ham_mid1.classList.remove("animate-ham_x1a")
+    ham_mid1.classList.remove("animate-ham_x1b")
+    ham_mid2.classList.remove("animate-ham_x2a")
+    ham_mid2.classList.remove("animate-ham_x2b")
 }
 
 //desktop only : open links in new window
@@ -61,27 +64,39 @@ function setAttr_target() {
     }
 }
 
+const hamburgers = document.querySelector(".hamburgers")
+const ham_mid1 = document.querySelector(".ham-mid1")
+const ham_mid2 = document.querySelector(".ham-mid2")
+function hamIconAnimeKontrol() {
+    hamburgers.classList.toggle("bg-blue1")
+    hamburgers.classList.toggle("bg-transparent")
+    ham_mid1.classList.remove("animate-ham_x1a")
+    ham_mid1.classList.remove("animate-ham_x1b")
+    ham_mid2.classList.remove("animate-ham_x2a")
+    ham_mid2.classList.remove("animate-ham_x2b")
+}
 let isMobileMenuOpen = false
 function addListenerHamIcon() {
     hamIcon1.addEventListener("click", (e) => {
         console.log(e.target.id)
-        hamIcon1.classList.toggle("openMenu")
+        hamIconAnimeKontrol()
+        // hamIcon1.classList.toggle("openMenu")
         if(isMobileMenuOpen) {
             // console.log("IF", isMobileMenuOpen)
             isMobileMenuOpen = !isMobileMenuOpen
             darkLayer.classList.toggle("hidden")
             navbar.classList.remove("animate-slideRight_navbar")
             navbar.classList.add("animate-slideLeft_navbar")
-
-            // setInterval(autoplayImgCarousel, 3000)
+            ham_mid1.classList.add("animate-ham_x1b")
+            ham_mid2.classList.add("animate-ham_x2b")
         } else {
             // console.log("ELSE", isMobileMenuOpen)
-
             isMobileMenuOpen = !isMobileMenuOpen
             darkLayer.classList.toggle("hidden")
             navbar.classList.remove("animate-slideLeft_navbar")
             navbar.classList.add("animate-slideRight_navbar")
-
+            ham_mid1.classList.add("animate-ham_x1a")
+            ham_mid2.classList.add("animate-ham_x2a")
             // clearInterval(animateCarousel)
         }
     })
