@@ -38,7 +38,7 @@
 | [Tony Heimark](https://www.youtube.com/watch?v=hRaMbPlCT4A)  | hamburger menu animation (with edits)  |
 | [w3schools](https://www.w3schools.com/)  | coding infos  |
 | [MDN](https://developer.mozilla.org/en-US/)  | coding infos  |
-| Content Cell  | Content Cell  |
+| [Tailwind CSS](https://tailwindcss.com/)  | tailwind coding syntaxes  |
 | Content Cell  | Content Cell  |
 <br><br><br><br><br>
 
