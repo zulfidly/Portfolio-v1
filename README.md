@@ -4,8 +4,8 @@
 
 | Tools   | Utilisation |
 | ------------- | ------------- |
-| VS Code  | IDE used  |
-| Tailwind CSS + Vite  | npm init -y <br> Cell <br> npm install -D tailwindcss postcss autoprefixer vite <br> npx tailwindcss init -p <br> npm run dev <br> <br> |
+| Visual Studio Code  | IDE used  |
+| Tailwind CSS + Vite  | npm init -y <br> npm install -D tailwindcss postcss autoprefixer vite <br> npx tailwindcss init -p <br> npm run dev <br> |
 | Google Chrome + Pesticide extension | run inspect to view webpage live  |
 <br>
 
