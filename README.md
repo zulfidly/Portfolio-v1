@@ -30,8 +30,9 @@
 <br><br><br><br><br>
 | Reference  | Code integration |
 | ------------- | ------------- |
+| [Sigma School](https://app.sigmaschool.co/) | HTML, CSS, JavaScipt & TailwindCSS vocabularies |
 | [Web Dev Simplified](https://www.youtube.com/watch?v=9HcxHDS2w1s)  | Image slider in CSS (with some minor edits)  |
-| Content Cell  | Content Cell  |
+| [Tony Heimark](https://www.youtube.com/watch?v=hRaMbPlCT4A)  | hamburger menu animation (with edits)  |
 <br><br><br><br><br>
 
 <br><br><br><br><br>
