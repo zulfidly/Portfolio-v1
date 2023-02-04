@@ -43,6 +43,8 @@ function initNavbar() {
     hamIcon1.classList.remove("openMenu")
     darkLayer.classList.add("hidden")
     isMobileMenuOpen = false
+    hamburgers.classList.remove("bg-transparent")
+    hamburgers.classList.add("bg-blue1")
     ham_mid1.classList.remove("animate-ham_x1a")
     ham_mid1.classList.remove("animate-ham_x1b")
     ham_mid2.classList.remove("animate-ham_x2a")
