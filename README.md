@@ -68,7 +68,7 @@ module.exports = {
 | [w3schools](https://www.w3schools.com/)  | coding infos  |
 | [MDN](https://developer.mozilla.org/en-US/)  | coding infos  |
 | [Tailwind CSS](https://tailwindcss.com/)  | tailwind coding syntaxes  |
-| Content Cell  | Content Cell  |
+
 <br>
 
 <br>
