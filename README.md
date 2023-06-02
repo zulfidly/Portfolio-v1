@@ -1,4 +1,4 @@
-# [My Portfolio website](https://zulfidly.github.io/Portfolio/)
+# [My Portfolio website](https://portfolio-fidly-v1.netlify.app/)
 
 ## Design approach
 
